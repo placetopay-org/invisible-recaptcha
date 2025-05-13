@@ -66,7 +66,7 @@ class CaptchaTest extends TestCase
 
     public function testGetPolyfillJs()
     {
-        $js = 'https://cdn.polyfill.io/v2/polyfill.min.js';
+        $js = 'https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0';
 
         $this->assertEquals($js, $this->captcha->getPolyfillJs());
     }
